@@ -28,6 +28,10 @@ body {
     width: $image-height;
     border-radius: $image-border;
 }
+.pokemon-avatar {
+    height: $pokemon-avatar-height;
+    width: $pokemon-avatar-width;
+}
 
 .header-container {
     display: flex;

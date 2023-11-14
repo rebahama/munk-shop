@@ -90,7 +90,7 @@ for (let i = 0; i < pokemonData.length; i++) {
     <p>Price: $${price}</p>
     <p>Rating: ${rating}</p>
     <p>Category: ${category}</p>
-    <img src="${image}" alt="${name}" width="100">
+    <img src="${image}" alt="${name}" width="100" class="pokemon-avatar">
   `;
 
   // Append the list item to the list

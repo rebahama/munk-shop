@@ -30,6 +30,11 @@ body {
   border-radius: 50px;
 }
 
+.pokemon-avatar {
+  height: 111px;
+  width: 165px;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
