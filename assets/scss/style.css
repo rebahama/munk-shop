@@ -33,6 +33,7 @@ body {
 .pokemon-avatar {
   height: 111px;
   width: 165px;
+  border-radius: 100px;
 }
 
 .header-container {
@@ -43,4 +44,28 @@ body {
 
 .under-header {
   background-color: #3b4444;
+}
+
+/* Style the pokemon list*/
+#pokemonList {
+  margin-top: 80px;
+  background-color: red;
+  width: 500px;
+  border: 1px solid #000;
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.pokemon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.property-style {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: auto;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

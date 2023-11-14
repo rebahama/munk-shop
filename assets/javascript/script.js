@@ -83,15 +83,19 @@ for (let i = 0; i < pokemonData.length; i++) {
   const image = pokemonData[i].image;
   // Create a list item
   const listItem = document.createElement("li");
+  listItem.classList.add("pokemon-item");
 
   // Create HTML content for the list item
   listItem.innerHTML = `
+  <div class="property-style">
     <h2>${name}</h2>
     <p>Price: $${price}</p>
     <p>Rating: ${rating}</p>
     <p>Category: ${category}</p>
     <img src="${image}" alt="${name}" width="100" class="pokemon-avatar">
+    <div>
   `;
+
 
   // Append the list item to the list
   pokemonList.appendChild(listItem);
