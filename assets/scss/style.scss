@@ -1,4 +1,5 @@
 @import 'variables';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
 * {
     /*remove browser defualt settings*/
@@ -6,6 +7,7 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -18,4 +20,21 @@ body {
     text-align: $center-text;
     color: $font-alternative-color;
     height: $height-header;
+}
+
+/*style img header*/
+.img-style {
+    height: $image-height;
+    width: $image-height;
+    border-radius: $image-border;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: $header-padding;
+}
+
+.under-header {
+    background-color: $background-color;
 }

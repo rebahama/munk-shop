@@ -1,11 +1,14 @@
 /*Colors*/
 /*Margin,padding,centering,height*/
+/* image-style*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
 * {
   /*remove browser defualt settings*/
   margin: 0;
   padding: 0;
   border: none;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -17,5 +20,22 @@ body {
   background-color: #ee6c4d;
   text-align: center;
   color: #fff;
-  height: 100px;
+  height: 110px;
+}
+
+/*style img header*/
+.img-style {
+  height: 87px;
+  width: 87px;
+  border-radius: 50px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.under-header {
+  background-color: #3b4444;
 }/*# sourceMappingURL=style.css.map */
