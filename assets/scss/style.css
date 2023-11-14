@@ -48,6 +48,7 @@ body {
 
 /* Style the pokemon list*/
 #pokemonList {
+  list-style: none;
   margin-top: 80px;
   background-color: red;
   width: 500px;
