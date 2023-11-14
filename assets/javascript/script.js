@@ -86,8 +86,10 @@ for (let i = 0; i < pokemonData.length; i++) {
   const listItem = document.createElement("li");
   listItem.classList.add("pokemon-item");
 
-  function testingg() {
-    console.log("hello");
+  function addBasket() {
+    for (let i = 0; i < pokemonData.length; i++) {
+      console.log(pokemonData[i]);
+    }
   }
 
   // Create HTML content for the list item
@@ -99,6 +101,7 @@ for (let i = 0; i < pokemonData.length; i++) {
     <p>Category: ${category}</p>
     <img src="${image}" alt="${name}" width="100" class="pokemon-avatar">
     <button type="button" id="add-btn"> + </button>
+    <p> ${pokemonData.length}</p>
     <div>
   `;
 
@@ -106,4 +109,4 @@ for (let i = 0; i < pokemonData.length; i++) {
   pokemonList.appendChild(listItem);
 }
 const addBtn = document.getElementById("add-btn");
-addBtn.addEventListener("click", testingg);
+addBtn.addEventListener("click", addBasket);
