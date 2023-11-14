@@ -1,7 +1,12 @@
-$backgroundcolor: blue;
-$paddingSize:20px;
+@import 'variables';
 
-body{
-    background-color: $backgroundcolor;
-    padding: $paddingSize;
+body {
+    margin: 0px;
+    padding: 0px;
 }
+/* Style header*/
+.header-intro {
+    background-color: $accent-color;
+    text-align: $center-text;
+}
+

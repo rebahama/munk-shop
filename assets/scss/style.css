@@ -1,4 +1,10 @@
 body {
-  background-color: blue;
-  padding: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Style header*/
+.header-intro {
+  background-color: #ee6c4d;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
