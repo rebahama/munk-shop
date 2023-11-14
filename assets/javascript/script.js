@@ -7,14 +7,14 @@ const pokemonData = [
     price: 25.99,
     rating: 4.5,
     category: "Electric",
-    image: "assets/img/pokemon-header.jpg", // Add the image file name or URL
+    image: "assets/img/pikachu.jpg", // Add the image file name or URL
   },
   {
-    name: "Charizard",
+    name: "Charmander",
     price: 49.99,
     rating: 4.8,
     category: "Fire/Flying",
-    image: "assets/img/charizard.jpg",
+    image: "assets/img/charmander.jpg",
   },
   {
     name: "Bulbasaur",
@@ -31,11 +31,11 @@ const pokemonData = [
     image: "assets/img/squirtle.jpg",
   },
   {
-    name: "Jigglypuff",
+    name: "Graveler",
     price: 18.99,
     rating: 4.1,
-    category: "Normal/Fairy",
-    image: "assets/img/jigglypuff.jpg",
+    category: "Rock",
+    image: "assets/img/graveler.jpg",
   },
   {
     name: "Mewtwo",
@@ -52,11 +52,11 @@ const pokemonData = [
     image: "assets/img/eevee.jpg",
   },
   {
-    name: "Snorlax",
+    name: "Jolteon",
     price: 39.99,
     rating: 4.7,
-    category: "Normal",
-    image: "assets/img/snorlax.jpg",
+    category: "Electric",
+    image: "assets/img/jolteon.jpg",
   },
   {
     name: "Mew",
@@ -66,11 +66,11 @@ const pokemonData = [
     image: "assets/img/mew.jpg",
   },
   {
-    name: "Gengar",
+    name: "Lugia",
     price: 34.99,
     rating: 4.4,
-    category: "Ghost/Poison",
-    image: "assets/img/gengar.jpg",
+    category: "Legendary",
+    image: "assets/img/lugia.jpg",
   },
 ];
 // Loop over each Pokémon in the array using a regular for loop
