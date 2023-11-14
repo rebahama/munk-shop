@@ -1,12 +1,21 @@
 @import 'variables';
 
-body {
-    margin: 0px;
-    padding: 0px;
+* {
+    /*remove browser defualt settings*/
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
 }
+
+body {
+    background-color: $main-background-color;
+}
+
 /* Style header*/
 .header-intro {
     background-color: $accent-color;
     text-align: $center-text;
+    color: $font-alternative-color;
+    height: $height-header;
 }
-
